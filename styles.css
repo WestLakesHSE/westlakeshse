@@ -381,8 +381,30 @@ footer { background-color: #0d2d4e; color: rgba(255,255,255,0.75); padding: 3.5r
   display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 3rem;
   padding-bottom: 2.5rem; border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.footer-brand img { height: 36px; filter: brightness(0) invert(1); margin-bottom: 1rem; }
+.footer-brand img.footer-logo { height: 48px; filter: none; margin-bottom: 1rem; }
 .footer-brand p { font-size: 0.88rem; line-height: 1.7; max-width: 280px; }
+.qualifications-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.qualifications-list li {
+  padding-left: 1.5rem;
+  position: relative;
+  color: #718096;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.qualifications-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #2E75B6;
+  font-weight: 700;
+}
 .footer-col h4 { color: #ffffff; font-weight: 600; font-size: 0.9rem; margin-bottom: 1rem; }
 .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
 .footer-col ul li a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.88rem; }
