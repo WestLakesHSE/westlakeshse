@@ -1,6 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
 
+:root { color-scheme: light only; }
+
+html {
+  color-scheme: light only;
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: #2D3748;
 :root {
   --navy: #1F4E79;
   --blue: #2E75B6;
