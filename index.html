@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="color-scheme" content="light only" />
+  <meta name="color-scheme" content="light" />
   <title>West Lakes HSE | Health, Safety & Environmental Consultancy</title>
   <meta name="description" content="Professional Health, Safety and Environmental consultancy based in West Cumbria. Practical, locally-focused HSE support for businesses across West Cumbria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -98,7 +101,7 @@
         <div class="why-image-inner fade-up">
           <span class="section-label">Why West Lakes HSE</span>
           <h2 class="section-title" style="margin-bottom:0.5rem;">Locally based. Practically minded.</h2>
-          <p style="color:var(--slate); font-size:0.95rem; margin-bottom:1.25rem;">West Lakes HSE was founded to bring genuine, hands-on HSE expertise to businesses across Cumbria — without the corporate overhead or one-size-fits-all approach.</p>
+          <p style="color:#4A5568; font-size:0.95rem; margin-bottom:1.25rem;">West Lakes HSE was founded to bring genuine, hands-on HSE expertise to businesses across Cumbria — without the corporate overhead or one-size-fits-all approach.</p>
           <ul class="why-list">
             <li>Experience across a wide range of business types and sectors</li>
             <li>Straightforward advice — no jargon, no padding</li>
@@ -110,8 +113,8 @@
         <div class="fade-up">
           <span class="section-label">Experience &amp; Background</span>
           <h2 class="section-title">Built on real-world HSE management</h2>
-          <p style="color:var(--slate); line-height:1.8; margin-bottom:1.25rem;">West Lakes HSE is run by a qualified HSE professional with over five years of hands-on health, safety and environmental management experience — including site visits across a diverse range of industries and direct involvement in ISO certification programmes.</p>
-          <p style="color:var(--slate); line-height:1.8; margin-bottom:2rem;">The aim is simple: help local businesses stay compliant, keep their people safe, and protect the environment they work in — through practical, reliable and honest support.</p>
+          <p style="color:#4A5568; line-height:1.8; margin-bottom:1.25rem;">West Lakes HSE is run by a qualified HSE professional with over five years of hands-on health, safety and environmental management experience — including site visits across a diverse range of industries and direct involvement in ISO certification programmes.</p>
+          <p style="color:#4A5568; line-height:1.8; margin-bottom:2rem;">The aim is simple: help local businesses stay compliant, keep their people safe, and protect the environment they work in — through practical, reliable and honest support.</p>
           <a href="#" class="btn-blue" onclick="showPage('about')">About West Lakes HSE</a>
         </div>
       </div>
@@ -156,10 +159,10 @@
           <span class="section-label">Get in Touch</span>
           <h2 class="section-title">Let's talk about your business</h2>
           <p>Whether you have a specific HSE challenge or just want to find out how West Lakes HSE can support your business, get in touch. An initial conversation is always free.</p>
-         <div class="contact-detail">
-  <div class="contact-detail-icon">✉️</div>
-  <span>westlakes.hse<!-- -->@mail.com</span>
-</div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">✉️</div>
+            <span>westlakes.hse@mail.com</span>
+          </div>
           <div class="contact-detail">
             <div class="contact-detail-icon">📞</div>
             <span>[INSERT PHONE NUMBER]</span>
@@ -169,33 +172,34 @@
             <span>West Cumbria, UK</span>
           </div>
         </div>
-<div class="contact-form">
-  <h3 style="color:var(--navy); font-size:1.1rem; font-weight:700; margin-bottom:1.5rem;">Send a message</h3>
-  <form action="https://formspree.io/f/xqeydyzw" method="POST">
-    <div class="form-row">
-      <div class="form-group"><label>First Name</label><input type="text" name="first_name" placeholder="Your first name" required /></div>
-      <div class="form-group"><label>Last Name</label><input type="text" name="last_name" placeholder="Your last name" required /></div>
-    </div>
-    <div class="form-group"><label>Business Name</label><input type="text" name="business_name" placeholder="Your company name" /></div>
-    <div class="form-group"><label>Email Address</label><input type="email" name="email" placeholder="your@email.com" required /></div>
-    <div class="form-group">
-      <label>How can West Lakes HSE help?</label>
-      <select name="enquiry_type">
-        <option value="">Select a topic...</option>
-        <option>HSE Audit</option>
-        <option>Risk Assessment</option>
-        <option>Policy &amp; Documentation</option>
-        <option>Fire Risk Assessment</option>
-        <option>SSIP Application</option>
-        <option>Incident Investigation</option>
-        <option>Retained Support Package</option>
-        <option>General Enquiry</option>
-      </select>
-    </div>
-    <div class="form-group"><label>Message</label><textarea name="message" placeholder="Tell West Lakes HSE a bit about your business and what you need..." required></textarea></div>
-    <button type="submit" class="btn-blue form-submit">Send Message</button>
-  </form>
-</div>
+        <div class="contact-form">
+          <h3 style="color:#1F4E79; font-size:1.1rem; font-weight:700; margin-bottom:1.5rem;">Send a message</h3>
+          <form action="https://formspree.io/f/xqeydyzw" method="POST">
+            <div class="form-row">
+              <div class="form-group"><label>First Name</label><input type="text" name="first_name" placeholder="Your first name" required /></div>
+              <div class="form-group"><label>Last Name</label><input type="text" name="last_name" placeholder="Your last name" required /></div>
+            </div>
+            <div class="form-group"><label>Business Name</label><input type="text" name="business_name" placeholder="Your company name" /></div>
+            <div class="form-group"><label>Email Address</label><input type="email" name="email" placeholder="your@email.com" required /></div>
+            <div class="form-group">
+              <label>How can West Lakes HSE help?</label>
+              <select name="enquiry_type">
+                <option value="">Select a topic...</option>
+                <option>HSE Audit</option>
+                <option>Risk Assessment</option>
+                <option>Policy &amp; Documentation</option>
+                <option>Fire Risk Assessment</option>
+                <option>SSIP Application</option>
+                <option>Incident Investigation</option>
+                <option>Retained Support Package</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-group"><label>Message</label><textarea name="message" placeholder="Tell West Lakes HSE a bit about your business and what you need..." required></textarea></div>
+            <button type="submit" class="btn-blue form-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -219,7 +223,7 @@
             <p><em>Your photo can be added here</em><br/>A professional headshot works well</p>
           </div>
           <div class="about-photo-caption">
-            <p><strong style="color:var(--navy);">Wayne Pearson</strong><br/>Consultant, West Lakes HSE<br/>West Cumbria</p>
+            <p><strong style="color:#1F4E79;">Wayne Pearson</strong><br/>Consultant, West Lakes HSE<br/>West Cumbria</p>
           </div>
         </div>
         <div class="about-text">
@@ -229,7 +233,7 @@
           <p>HS&amp;E management experience is brought to every client engagement, gained through working across a wide range of business types and sectors. Experience includes site visits, audits, ISO implementation and certification projects, SSIP applications and policy development.</p>
           <p>The approach is straightforward: understand the business, identify what needs to be done, and deliver it clearly and efficiently. No unnecessary complexity. No overpromising.</p>
 
-          <h3 style="font-size:1.05rem; font-weight:700; color:var(--navy); margin:2rem 0 1rem;">Areas of expertise</h3>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#1F4E79; margin:2rem 0 1rem;">Areas of expertise</h3>
           <div class="credentials-grid">
             <div class="credential-item">
               <span class="credential-icon">📋</span>
@@ -275,8 +279,8 @@
             </div>
           </div>
 
-          <h3 style="font-size:1.05rem; font-weight:700; color:var(--navy); margin:2rem 0 1rem;">Qualifications &amp; memberships</h3>
-          <p style="color:var(--text-light); font-size:1.0rem; font-style:bold; margin-bottom:1.25rem;">NEBOSH Diploma, NEBOSH General Certificate, NEBOSH Fire Safety &amp; Risk Management Certificate, NEBOSH Construction Certificate, IOSH Managing Safely, IEMA Foundation Certificate, ISO 9001 Lead Auditor, ISO 45001 Lead Auditor.</p>
+          <h3 style="font-size:1.05rem; font-weight:700; color:#1F4E79; margin:2rem 0 1rem;">Qualifications &amp; memberships</h3>
+          <p style="color:#718096; font-size:1.0rem; margin-bottom:1.25rem;">NEBOSH Diploma, NEBOSH General Certificate, NEBOSH Fire Safety &amp; Risk Management Certificate, NEBOSH Construction Certificate, IOSH Managing Safely, IEMA Foundation Certificate, ISO 9001 Lead Auditor, ISO 45001 Lead Auditor.</p>
 
           <div style="margin-top:2rem;">
             <a href="#" class="btn-blue" onclick="showPage('packages')">View Services &amp; Packages</a>
@@ -297,68 +301,64 @@
     <p>Five clear service options — from affordable monthly helpline access to full named competent person support. All work carried out by a qualified HSE professional actively working in industry.</p>
   </div>
 
-  <!-- AVAILABILITY NOTICE -->
-  <section style="background:var(--light-blue); padding:1.5rem 2rem; border-bottom: 1px solid #c3dff5;">
+  <section class="availability-notice">
     <div class="container">
-      <p style="color:var(--navy); font-size:0.9rem; text-align:center; margin:0;">
-        <strong>Please note:</strong> West Lakes HSE is operated alongside full-time employment. All client work is carried out during evenings and weekends. Response times are clearly stated for each service — this ensures clients receive access to a consultant who is actively working in industry, bringing current, practical knowledge to every engagement.
-      </p>
+      <p><strong>Please note:</strong> West Lakes HSE is operated alongside full-time employment. All client work is carried out during evenings and weekends. Response times are clearly stated for each service — this ensures clients receive access to a consultant who is actively working in industry, bringing current, practical knowledge to every engagement.</p>
     </div>
   </section>
 
-  <!-- COMPARISON TABLE -->
-  <section style="background:var(--light-grey); padding:3rem 2rem;">
+  <section class="table-section">
     <div class="container">
       <div style="text-align:center; margin-bottom:2rem;">
         <span class="section-label">At a Glance</span>
         <h2 class="section-title">Package comparison</h2>
       </div>
-      <div style="overflow-x:auto;">
-        <table style="width:100%; border-collapse:collapse; font-size:0.88rem; background:white; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(31,78,121,0.08);">
+      <div class="table-scroll">
+        <table class="comparison-table">
           <thead>
-            <tr style="background:var(--navy); color:white;">
-              <th style="padding:1rem; text-align:left; font-weight:600;">Package</th>
-              <th style="padding:1rem; text-align:center; font-weight:600;">Contract</th>
-              <th style="padding:1rem; text-align:center; font-weight:600;">Price</th>
-              <th style="padding:1rem; text-align:center; font-weight:600;">Response Time</th>
-              <th style="padding:1rem; text-align:center; font-weight:600;">Site Visits</th>
+            <tr>
+              <th style="text-align:left;">Package</th>
+              <th>Contract</th>
+              <th>Price</th>
+              <th>Response Time</th>
+              <th>Site Visits</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="border-bottom:1px solid var(--mid-grey);">
-              <td style="padding:0.9rem 1rem; font-weight:600; color:var(--navy);">HSE Helpline</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">12 months</td>
-              <td style="padding:0.9rem 1rem; text-align:center; font-weight:700; color:var(--blue);">£50/month</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">24hr weekdays<br/>48hr weekends</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">None included</td>
+            <tr>
+              <td class="pkg-name">HSE Helpline</td>
+              <td>12 months</td>
+              <td class="pkg-price">£50/month</td>
+              <td>24hr weekdays<br/>48hr weekends</td>
+              <td>None included</td>
             </tr>
-            <tr style="border-bottom:1px solid var(--mid-grey); background:var(--light-grey);">
-              <td style="padding:0.9rem 1rem; font-weight:600; color:var(--navy);">HSE Partner</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">12 months</td>
-              <td style="padding:0.9rem 1rem; text-align:center; font-weight:700; color:var(--blue);">£250/month</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">24hr weekdays<br/>48hr weekends</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">1/year, weekend</td>
-            </tr>
-            <tr style="border-bottom:1px solid var(--mid-grey);">
-              <td style="padding:0.9rem 1rem; font-weight:600; color:var(--navy);">HSE Flexi</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">None</td>
-              <td style="padding:0.9rem 1rem; text-align:center; font-weight:700; color:var(--blue);">£45/hour</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">5–10 working days<br/>(written work)</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">Weekends by arrangement</td>
-            </tr>
-            <tr style="border-bottom:1px solid var(--mid-grey); background:var(--light-grey);">
-              <td style="padding:0.9rem 1rem; font-weight:600; color:var(--navy);">HSE Review</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">None</td>
-              <td style="padding:0.9rem 1rem; text-align:center; font-weight:700; color:var(--blue);">£300–£500</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">Report within<br/>10 working days</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">Weekend by arrangement</td>
+            <tr class="row-alt">
+              <td class="pkg-name">HSE Partner</td>
+              <td>12 months</td>
+              <td class="pkg-price">£250/month</td>
+              <td>24hr weekdays<br/>48hr weekends</td>
+              <td>1/year, weekend</td>
             </tr>
             <tr>
-              <td style="padding:0.9rem 1rem; font-weight:600; color:var(--navy);">HSE Accreditation</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">None</td>
-              <td style="padding:0.9rem 1rem; text-align:center; font-weight:700; color:var(--blue);">From £100</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">5–10 working days</td>
-              <td style="padding:0.9rem 1rem; text-align:center; color:var(--slate);">As required</td>
+              <td class="pkg-name">HSE Flexi</td>
+              <td>None</td>
+              <td class="pkg-price">£45/hour</td>
+              <td>5–10 working days</td>
+              <td>Weekends by arrangement</td>
+            </tr>
+            <tr class="row-alt">
+              <td class="pkg-name">HSE Review</td>
+              <td>None</td>
+              <td class="pkg-price">£300–£500</td>
+              <td>Report within 10 working days</td>
+              <td>Weekend by arrangement</td>
+            </tr>
+            <tr>
+              <td class="pkg-name">HSE Accreditation</td>
+              <td>None</td>
+              <td class="pkg-price">From £100</td>
+              <td>5–10 working days</td>
+              <td>As required</td>
             </tr>
           </tbody>
         </table>
@@ -366,185 +366,172 @@
     </div>
   </section>
 
-  <!-- PACKAGES DETAIL -->
-  <section style="background:var(--white); padding:4rem 2rem;">
+  <section class="packages-detail-section">
     <div class="container">
 
-      <!-- HELPLINE -->
-      <div class="package-detail-block fade-up" style="margin-bottom:3rem; border:1.5px solid var(--mid-grey); border-radius:16px; overflow:hidden;">
-        <div style="background:var(--navy); padding:1.5rem 2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
-          <div>
-            <div style="font-size:1.4rem; margin-bottom:0.25rem;">📞</div>
-            <h3 style="color:white; font-size:1.2rem; margin:0;">HSE Helpline</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0.2rem 0 0;">Monthly retainer — 12 month contract</p>
+      <div class="package-block fade-up">
+        <div class="package-header">
+          <div class="package-header-left">
+            <div class="package-emoji">📞</div>
+            <h3>HSE Helpline</h3>
+            <p>Monthly retainer — 12 month contract</p>
           </div>
-          <div style="text-align:right;">
-            <div style="color:#7EC8E3; font-size:1.6rem; font-weight:700;">£50<span style="font-size:0.9rem; font-weight:400;">/month</span></div>
-          </div>
+          <div class="package-price">£50<span>/month</span></div>
         </div>
-        <div style="padding:1.75rem 2rem;">
-          <p style="color:var(--slate); font-size:0.92rem; line-height:1.75; margin-bottom:1.5rem;">The HSE Helpline gives businesses straightforward, affordable access to professional health and safety advice without the commitment of a full management service. Ideal for small businesses that need reliable guidance on hand but do not require regular site visits or documentation support.</p>
-          <h4 style="color:var(--blue); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">What's included</h4>
-          <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem;">
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Phone, WhatsApp and email access for day-to-day HSE queries including legal questions, incident guidance, contractor queries and general compliance questions</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Responses within 24 hours on weekdays and 48 hours at weekends and bank holidays. Clients will be notified in advance of any change during planned annual leave</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Access to a shared Google Drive folder of standard HSE templates including risk assessment templates, incident report forms and toolbox talk sheets</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Annual Health &amp; Safety Policy health check with written feedback and recommendations</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Proactive contact at month 11 to discuss contract renewal and any changes to requirements</li>
+        <div class="package-body">
+          <p>The HSE Helpline gives businesses straightforward, affordable access to professional health and safety advice without the commitment of a full management service. Ideal for small businesses that need reliable guidance on hand but do not require regular site visits or documentation support.</p>
+          <h4 class="included-label">What's included</h4>
+          <ul class="included-list">
+            <li>Phone, WhatsApp and email access for day-to-day HSE queries including legal questions, incident guidance, contractor queries and general compliance questions</li>
+            <li>Responses within 24 hours on weekdays and 48 hours at weekends and bank holidays. Clients will be notified in advance of any change during planned annual leave</li>
+            <li>Access to a shared Google Drive folder of standard HSE templates including risk assessment templates, incident report forms and toolbox talk sheets</li>
+            <li>Annual Health &amp; Safety Policy health check with written feedback and recommendations</li>
+            <li>Proactive contact at month 11 to discuss contract renewal and any changes to requirements</li>
           </ul>
-          <p style="font-size:0.8rem; color:var(--text-light); margin-top:1.25rem; padding-top:1rem; border-top:1px solid var(--mid-grey);">12 month minimum term. One month's written notice required to terminate after the initial term.</p>
+          <p class="package-footnote">12 month minimum term. One month's written notice required to terminate after the initial term.</p>
         </div>
       </div>
 
-      <!-- PARTNER -->
-      <div class="package-detail-block fade-up" style="margin-bottom:3rem; border:2px solid var(--navy); border-radius:16px; overflow:hidden; box-shadow:0 8px 32px rgba(31,78,121,0.12);">
-        <div style="background:var(--navy); padding:1.5rem 2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; position:relative;">
-          <div style="position:absolute; top:-1px; right:2rem; background:var(--blue); color:white; font-size:0.7rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; padding:0.3rem 0.9rem; border-radius:0 0 6px 6px;">Most Comprehensive</div>
-          <div>
-            <div style="font-size:1.4rem; margin-bottom:0.25rem;">🤝</div>
-            <h3 style="color:white; font-size:1.2rem; margin:0;">HSE Partner</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0.2rem 0 0;">Named Competent Person — 12 month contract</p>
+      <div class="package-block package-block--featured fade-up">
+        <div class="package-header">
+          <div class="package-badge">Most Comprehensive</div>
+          <div class="package-header-left">
+            <div class="package-emoji">🤝</div>
+            <h3>HSE Partner</h3>
+            <p>Named Competent Person — 12 month contract</p>
           </div>
-          <div style="text-align:right;">
-            <div style="color:#7EC8E3; font-size:1.6rem; font-weight:700;">£250<span style="font-size:0.9rem; font-weight:400;">/month</span></div>
-          </div>
+          <div class="package-price">£250<span>/month</span></div>
         </div>
-        <div style="padding:1.75rem 2rem;">
-          <p style="color:var(--slate); font-size:0.92rem; line-height:1.75; margin-bottom:1.5rem;">The HSE Partner service provides a formally appointed named competent person as required under Regulation 7 of the Management of Health and Safety at Work Regulations 1999. Ideal for small to medium, low-to-medium risk businesses such as offices, retail, light trade and small manufacturing operations.</p>
-          <h4 style="color:var(--blue); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">What's included</h4>
-          <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem; margin-bottom:1.25rem;">
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Formal written appointment of West Lakes HSE as Named Competent Person, documented via a signed appointment letter retained on file by both parties</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Phone, WhatsApp and email access — responses within 24 hours on weekdays and 48 hours at weekends. Clients notified in advance of changes during annual leave</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Full review and update of the Health &amp; Safety Policy annually, or complete rewrite at contract start if required</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Up to 5 risk assessments per year — written from scratch or existing assessments reviewed and updated</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>One site audit per year with verbal debrief and written findings within 10 working days</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Incident investigation guidance and RIDDOR reporting support by phone and email</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Monthly WhatsApp check-in to maintain open communication and address emerging concerns</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Access to shared Google Drive folder of standard HSE template documents</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Proactive contact at month 11 to discuss renewal and any changes to requirements</li>
+        <div class="package-body">
+          <p>The HSE Partner service provides a formally appointed named competent person as required under Regulation 7 of the Management of Health and Safety at Work Regulations 1999. Ideal for small to medium, low-to-medium risk businesses such as offices, retail, light trade and small manufacturing operations.</p>
+          <h4 class="included-label">What's included</h4>
+          <ul class="included-list">
+            <li>Formal written appointment of West Lakes HSE as Named Competent Person, documented via a signed appointment letter retained on file by both parties</li>
+            <li>Phone, WhatsApp and email access — responses within 24 hours on weekdays and 48 hours at weekends. Clients notified in advance of changes during annual leave</li>
+            <li>Full review and update of the Health &amp; Safety Policy annually, or complete rewrite at contract start if required</li>
+            <li>Up to 5 risk assessments per year — written from scratch or existing assessments reviewed and updated</li>
+            <li>One site audit per year with verbal debrief and written findings within 10 working days</li>
+            <li>Incident investigation guidance and RIDDOR reporting support by phone and email</li>
+            <li>Monthly WhatsApp check-in to maintain open communication and address emerging concerns</li>
+            <li>Access to shared Google Drive folder of standard HSE template documents</li>
+            <li>Proactive contact at month 11 to discuss renewal and any changes to requirements</li>
           </ul>
-          <div style="background:#FFF8E7; border-left:3px solid #F6C343; padding:1rem 1.25rem; border-radius:0 8px 8px 0; margin-bottom:1rem;">
-            <p style="font-size:0.82rem; color:var(--navy); font-weight:700; margin-bottom:0.4rem;">Please note</p>
-            <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.35rem;">
-              <li style="font-size:0.82rem; color:var(--slate);">• Site visits at weekends or by prior arrangement — minimum two weeks' notice required</li>
-              <li style="font-size:0.82rem; color:var(--slate);">• This is a supported competent person arrangement, not a full-time or emergency HSE management service</li>
-              <li style="font-size:0.82rem; color:var(--slate);">• In the event of a serious incident, immediate remote guidance will be provided and a site visit arranged at the earliest opportunity</li>
-              <li style="font-size:0.82rem; color:var(--slate);">• This service does not include emergency on-site attendance</li>
+          <div class="package-notice">
+            <p class="package-notice-title">Please note</p>
+            <ul>
+              <li>Site visits at weekends or by prior arrangement — minimum two weeks' notice required</li>
+              <li>This is a supported competent person arrangement, not a full-time or emergency HSE management service</li>
+              <li>In the event of a serious incident, immediate remote guidance will be provided and a site visit arranged at the earliest opportunity</li>
+              <li>This service does not include emergency on-site attendance</li>
             </ul>
           </div>
-          <p style="font-size:0.8rem; color:var(--text-light); margin-top:1rem; padding-top:1rem; border-top:1px solid var(--mid-grey);">12 month minimum term. One month's written notice required to terminate after the initial term.</p>
+          <p class="package-footnote">12 month minimum term. One month's written notice required to terminate after the initial term.</p>
         </div>
       </div>
 
-      <!-- FLEXI -->
-      <div class="package-detail-block fade-up" style="margin-bottom:3rem; border:1.5px solid var(--mid-grey); border-radius:16px; overflow:hidden;">
-        <div style="background:var(--navy); padding:1.5rem 2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
-          <div>
-            <div style="font-size:1.4rem; margin-bottom:0.25rem;">⚡</div>
-            <h3 style="color:white; font-size:1.2rem; margin:0;">HSE Flexi</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0.2rem 0 0;">Ad hoc — no contract required</p>
+      <div class="package-block fade-up">
+        <div class="package-header">
+          <div class="package-header-left">
+            <div class="package-emoji">⚡</div>
+            <h3>HSE Flexi</h3>
+            <p>Ad hoc — no contract required</p>
           </div>
-          <div style="text-align:right;">
-            <div style="color:#7EC8E3; font-size:1.6rem; font-weight:700;">£45<span style="font-size:0.9rem; font-weight:400;">/hour</span></div>
-          </div>
+          <div class="package-price">£45<span>/hour</span></div>
         </div>
-        <div style="padding:1.75rem 2rem;">
-          <p style="color:var(--slate); font-size:0.92rem; line-height:1.75; margin-bottom:1.5rem;">Flexible, on-demand HSE consultancy with no contract or ongoing commitment. Ideal for businesses with a one-off need, those wanting to try West Lakes HSE before committing to a retained package, or organisations with occasional HSE requirements.</p>
-          <h4 style="color:var(--blue); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">What's included</h4>
-          <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem; margin-bottom:1.25rem;">
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Ad hoc access to all West Lakes HSE services — risk assessments, policy writing, method statements, fire risk assessments, toolbox talks, site audits, incident investigation, COSHH assessments and contractor document review</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Minimum booking of 2 hours per instruction</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>All work carried out during evenings and weekends — turnaround for written work typically 5–10 working days from instruction</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Site visits at weekends or by prior arrangement — minimum two weeks' notice required</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Brief written summary provided following any site visit</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Invoiced within 5 working days of completion — payment due within 14 days of invoice</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Fixed-price quotes available for defined pieces of work such as fire risk assessments — get in touch to discuss</li>
+        <div class="package-body">
+          <p>Flexible, on-demand HSE consultancy with no contract or ongoing commitment. Ideal for businesses with a one-off need, those wanting to try West Lakes HSE before committing to a retained package, or organisations with occasional HSE requirements.</p>
+          <h4 class="included-label">What's included</h4>
+          <ul class="included-list">
+            <li>Ad hoc access to all West Lakes HSE services — risk assessments, policy writing, method statements, fire risk assessments, toolbox talks, site audits, incident investigation, COSHH assessments and contractor document review</li>
+            <li>Minimum booking of 2 hours per instruction</li>
+            <li>All work carried out during evenings and weekends — turnaround for written work typically 5–10 working days from instruction</li>
+            <li>Site visits at weekends or by prior arrangement — minimum two weeks' notice required</li>
+            <li>Brief written summary provided following any site visit</li>
+            <li>Invoiced within 5 working days of completion — payment due within 14 days of invoice</li>
+            <li>Fixed-price quotes available for defined pieces of work such as fire risk assessments — get in touch to discuss</li>
           </ul>
-          <p style="font-size:0.8rem; color:var(--text-light); margin-top:0.5rem; padding-top:1rem; border-top:1px solid var(--mid-grey);">A 50% deposit may be requested for bookings estimated at over 6 hours.</p>
+          <p class="package-footnote">A 50% deposit may be requested for bookings estimated at over 6 hours.</p>
         </div>
       </div>
 
-      <!-- REVIEW -->
-      <div class="package-detail-block fade-up" style="margin-bottom:3rem; border:1.5px solid var(--mid-grey); border-radius:16px; overflow:hidden;">
-        <div style="background:var(--navy); padding:1.5rem 2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
-          <div>
-            <div style="font-size:1.4rem; margin-bottom:0.25rem;">🔍</div>
-            <h3 style="color:white; font-size:1.2rem; margin:0;">HSE Review</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0.2rem 0 0;">One-off fixed price — no contract required</p>
+      <div class="package-block fade-up">
+        <div class="package-header">
+          <div class="package-header-left">
+            <div class="package-emoji">🔍</div>
+            <h3>HSE Review</h3>
+            <p>One-off fixed price — no contract required</p>
           </div>
-          <div style="text-align:right;">
-            <div style="color:#7EC8E3; font-size:1.6rem; font-weight:700;">£300–£500</div>
-            <div style="color:rgba(255,255,255,0.6); font-size:0.78rem;">fixed price</div>
+          <div class="package-price-block">
+            <div class="package-price">£300–£500</div>
+            <div class="package-price-sub">fixed price</div>
           </div>
         </div>
-        <div style="padding:1.75rem 2rem;">
-          <p style="color:var(--slate); font-size:0.92rem; line-height:1.75; margin-bottom:1rem;">A clear, honest picture of where your business stands against its legal health and safety obligations — with a prioritised action plan to move forward. Ideal for businesses that have never had an independent HSE review, those who have recently taken on staff, or any organisation wanting reassurance the basics are properly in place.</p>
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; margin-bottom:1.5rem;">
-            <div style="background:var(--light-grey); border-radius:8px; padding:1rem; border:1px solid var(--mid-grey);">
-              <p style="font-size:0.8rem; font-weight:700; color:var(--navy); margin-bottom:0.2rem;">Small premises</p>
-              <p style="font-size:0.78rem; color:var(--text-light); margin-bottom:0.4rem;">Office, small retail, under 10 staff</p>
-              <p style="font-size:1.1rem; font-weight:700; color:var(--blue);">£300–£350</p>
+        <div class="package-body">
+          <p>A clear, honest picture of where your business stands against its legal health and safety obligations — with a prioritised action plan to move forward.</p>
+          <div class="price-tiers">
+            <div class="price-tier">
+              <p class="price-tier-name">Small premises</p>
+              <p class="price-tier-desc">Office, small retail, under 10 staff</p>
+              <p class="price-tier-amount">£300–£350</p>
             </div>
-            <div style="background:var(--light-grey); border-radius:8px; padding:1rem; border:1px solid var(--mid-grey);">
-              <p style="font-size:0.8rem; font-weight:700; color:var(--navy); margin-bottom:0.2rem;">Medium premises</p>
-              <p style="font-size:0.78rem; color:var(--text-light); margin-bottom:0.4rem;">Workshop, warehouse, 10–30 staff</p>
-              <p style="font-size:1.1rem; font-weight:700; color:var(--blue);">£400–£500</p>
+            <div class="price-tier">
+              <p class="price-tier-name">Medium premises</p>
+              <p class="price-tier-desc">Workshop, warehouse, 10–30 staff</p>
+              <p class="price-tier-amount">£400–£500</p>
             </div>
           </div>
-          <h4 style="color:var(--blue); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">What's included</h4>
-          <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem; margin-bottom:1.25rem;">
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Pre-visit questionnaire completed by the client — allows a targeted audit and makes the best use of time on the day (approximately 15–20 minutes to complete)</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>On-site audit on a mutually agreed weekend — half day for smaller premises, full day for larger sites</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Review of existing documentation including policies, risk assessments, training records and incident records</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Verbal debrief at the end of the visit covering key findings</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Formal RAG-rated written report within 10 working days — Red (immediate action), Amber (action within defined timescale), Green (satisfactory)</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>One follow-up call within two weeks of the report to discuss findings and answer questions (approximately 30 minutes)</li>
+          <h4 class="included-label">What's included</h4>
+          <ul class="included-list">
+            <li>Pre-visit questionnaire completed by the client — allows a targeted audit and makes the best use of time on the day</li>
+            <li>On-site audit on a mutually agreed weekend — half day for smaller premises, full day for larger sites</li>
+            <li>Review of existing documentation including policies, risk assessments, training records and incident records</li>
+            <li>Verbal debrief at the end of the visit covering key findings</li>
+            <li>Formal RAG-rated written report within 10 working days — Red (immediate action), Amber (action within defined timescale), Green (satisfactory)</li>
+            <li>One follow-up call within two weeks of the report to discuss findings and answer questions</li>
           </ul>
-          <p style="font-size:0.8rem; color:var(--text-light); padding-top:1rem; border-top:1px solid var(--mid-grey);">Following the Review, a tailored proposal for any follow-on support can be provided on request. There is no obligation to proceed.</p>
+          <p class="package-footnote">Following the Review, a tailored proposal for any follow-on support can be provided on request. There is no obligation to proceed.</p>
         </div>
       </div>
 
-      <!-- ACCREDITATION -->
-      <div class="package-detail-block fade-up" style="margin-bottom:2rem; border:1.5px solid var(--mid-grey); border-radius:16px; overflow:hidden;">
-        <div style="background:var(--navy); padding:1.5rem 2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
-          <div>
-            <div style="font-size:1.4rem; margin-bottom:0.25rem;">🏅</div>
-            <h3 style="color:white; font-size:1.2rem; margin:0;">HSE Accreditation</h3>
-            <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0.2rem 0 0;">Project-based — no contract required</p>
+      <div class="package-block fade-up">
+        <div class="package-header">
+          <div class="package-header-left">
+            <div class="package-emoji">🏅</div>
+            <h3>HSE Accreditation</h3>
+            <p>Project-based — no contract required</p>
           </div>
-          <div style="text-align:right;">
-            <div style="color:#7EC8E3; font-size:1.6rem; font-weight:700;">From £100</div>
-            <div style="color:rgba(255,255,255,0.6); font-size:0.78rem;">+ project work</div>
+          <div class="package-price-block">
+            <div class="package-price">From £100</div>
+            <div class="package-price-sub">+ project work</div>
           </div>
         </div>
-        <div style="padding:1.75rem 2rem;">
-          <p style="color:var(--slate); font-size:0.92rem; line-height:1.75; margin-bottom:1rem;">Many businesses in construction, facilities management, utilities and related sectors are required to hold a recognised health and safety accreditation. West Lakes HSE supports businesses through the application process for the main SSIP-approved schemes including SafeContractor, CHAS, Constructionline, SMAS and Acclaim.</p>
-          <div style="background:var(--light-grey); border-radius:8px; padding:1rem 1.25rem; margin-bottom:1.5rem; border:1px solid var(--mid-grey);">
-            <p style="font-size:0.82rem; font-weight:700; color:var(--navy); margin-bottom:0.5rem;">Pricing — agreed before any work begins</p>
-            <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.3rem;">
-              <li style="font-size:0.85rem; color:var(--slate);">• Initial gap analysis: <strong style="color:var(--navy);">£100</strong></li>
-              <li style="font-size:0.85rem; color:var(--slate);">• Project work to complete the application: <strong style="color:var(--navy);">£150–£500</strong> depending on scheme and documentation required</li>
-              <li style="font-size:0.85rem; color:var(--slate);">• All project costs confirmed in writing before work begins — no hidden costs</li>
+        <div class="package-body">
+          <p>Many businesses in construction, facilities management, utilities and related sectors are required to hold a recognised health and safety accreditation. West Lakes HSE supports businesses through the application process for the main SSIP-approved schemes including SafeContractor, CHAS, Constructionline, SMAS and Acclaim.</p>
+          <div class="pricing-box">
+            <p class="pricing-box-title">Pricing — agreed before any work begins</p>
+            <ul>
+              <li>Initial gap analysis: <strong>£100</strong></li>
+              <li>Project work to complete the application: <strong>£150–£500</strong> depending on scheme and documentation required</li>
+              <li>All project costs confirmed in writing before work begins — no hidden costs</li>
             </ul>
           </div>
-          <h4 style="color:var(--blue); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">What's included</h4>
-          <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem; margin-bottom:1.25rem;">
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Initial questionnaire and gap analysis to establish what documentation is already in place and what is outstanding</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Review of existing documentation against the requirements of the chosen scheme</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Written summary of findings and fixed-price quote for remaining work — provided before any further commitment</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Development of any missing documentation — risk assessments, method statements, policies, environmental policies and training records as required</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Submission of the completed application to the accreditation body on behalf of the client</li>
-            <li style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--slate);"><span style="color:var(--blue); font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>Support with any queries or remedial actions raised by the accreditation body following submission</li>
+          <h4 class="included-label">What's included</h4>
+          <ul class="included-list">
+            <li>Initial questionnaire and gap analysis to establish what documentation is already in place and what is outstanding</li>
+            <li>Review of existing documentation against the requirements of the chosen scheme</li>
+            <li>Written summary of findings and fixed-price quote for remaining work — provided before any further commitment</li>
+            <li>Development of any missing documentation — risk assessments, method statements, policies, environmental policies and training records as required</li>
+            <li>Submission of the completed application to the accreditation body on behalf of the client</li>
+            <li>Support with any queries or remedial actions raised by the accreditation body following submission</li>
           </ul>
-          <div style="background:#FFF8E7; border-left:3px solid #F6C343; padding:0.9rem 1.1rem; border-radius:0 8px 8px 0;">
-            <p style="font-size:0.82rem; color:var(--slate); margin:0;">Documentation is prepared during evenings and weekends — turnaround typically 5–10 working days per document. The accreditation decision rests with the scheme provider. West Lakes HSE will support any remedial actions required following submission.</p>
+          <div class="package-notice">
+            <p>Documentation is prepared during evenings and weekends — turnaround typically 5–10 working days per document. The accreditation decision rests with the scheme provider. West Lakes HSE will support any remedial actions required following submission.</p>
           </div>
         </div>
       </div>
 
-      <!-- CTA -->
-      <div style="text-align:center; padding:2rem 0;">
-        <p style="color:var(--text-light); margin-bottom:1.25rem; font-size:0.95rem;">Not sure which service is right for you? Get in touch for a free, no-obligation conversation.</p>
+      <div class="packages-cta">
+        <p>Not sure which service is right for you? Get in touch for a free, no-obligation conversation.</p>
         <a href="#" class="btn-blue" onclick="showPage('home'); setTimeout(()=>document.getElementById('contact-section').scrollIntoView({behavior:'smooth'}),100)">Get in Touch</a>
       </div>
 
@@ -576,7 +563,7 @@
         <p><strong>Contact details:</strong></p>
         <ul>
           <li>Business Name: West Lakes HSE</li>
-          <li>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2c5b495f58404d47495f02445f496c414d4540024f4341">[email&#160;protected]</a></li>
+          <li>Email: westlakes.hse@mail.com</li>
           <li>Telephone: [INSERT PHONE NUMBER]</li>
         </ul>
 
@@ -596,7 +583,6 @@
         </ul>
 
         <h2>4. How Personal Data Is Collected</h2>
-        <p>Personal data is collected in the following ways:</p>
         <ul>
           <li>Directly from the individual when making contact, requesting a quote, or engaging services</li>
           <li>During the course of providing consultancy services</li>
@@ -605,11 +591,10 @@
         </ul>
 
         <h2>5. Legal Basis for Processing</h2>
-        <p>Personal data is only processed where there is a lawful basis to do so under UK GDPR Article 6:</p>
         <ul>
           <li><strong>Contract</strong> — processing is necessary to perform a contract or to take steps at the request of the individual before entering into one</li>
-          <li><strong>Legal Obligation</strong> — processing is necessary to comply with applicable legal obligations (e.g. tax records, health and safety legislation)</li>
-          <li><strong>Legitimate Interests</strong> — processing is necessary for the legitimate business interests of West Lakes HSE, where those interests are not overridden by the rights of the individual</li>
+          <li><strong>Legal Obligation</strong> — processing is necessary to comply with applicable legal obligations</li>
+          <li><strong>Legitimate Interests</strong> — processing is necessary for the legitimate business interests of West Lakes HSE</li>
           <li><strong>Consent</strong> — where explicit consent has been obtained (e.g. for marketing communications)</li>
         </ul>
 
@@ -639,7 +624,6 @@
         </ul>
 
         <h2>9. Individual Rights</h2>
-        <p>Under UK GDPR, individuals have the following rights:</p>
         <ul>
           <li><strong>Right of Access</strong> — to request a copy of the personal data held</li>
           <li><strong>Right to Rectification</strong> — to request correction of inaccurate or incomplete data</li>
@@ -699,7 +683,7 @@
       </ul>
       <h4 style="margin-top:1.5rem;">Contact</h4>
       <ul>
-        <li><a href="/cdn-cgi/l/email-protection#d7a0b2a4a3bbb6bcb2a4f9bfa4b297bab6bebbf9b4b8ba"><span class="__cf_email__" data-cfemail="1f687a6c6b737e747a6c31776c7a5f727e7673317c7072">[email&#160;protected]</span></a></li>
+        <li><a href="mailto:westlakes.hse@mail.com">westlakes.hse@mail.com</a></li>
         <li><a href="#">[INSERT PHONE]</a></li>
       </ul>
     </div>
@@ -710,7 +694,7 @@
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   function showPage(page) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
@@ -739,7 +723,6 @@
   }
 
   function observeFadeUps() {
-    // Make all fade-up elements visible immediately as fallback
     document.querySelectorAll('.fade-up').forEach(el => el.classList.add('visible'));
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -749,9 +732,7 @@
         }
       });
     }, { threshold: 0.1 });
-    document.querySelectorAll('.fade-up').forEach(el => {
-      observer.observe(el);
-    });
+    document.querySelectorAll('.fade-up').forEach(el => { observer.observe(el); });
   }
 
   document.addEventListener('DOMContentLoaded', observeFadeUps);
